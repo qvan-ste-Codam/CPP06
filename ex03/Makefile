@@ -3,12 +3,12 @@ ORANGE = \033[0;33m
 GREEN = \033[0;32m
 NO_COLOUR = \033[0m
 
-CPPFILES = main.cpp ScalarConverter.cpp
+CPPFILES = main.cpp
 OFILES = $(CPPFILES:.cpp=.o)
 
 CXXFLAGS = -Wall -Werror -Wextra -std=c++20
 
-NAME = convert
+NAME = main
 
 all: $(NAME)
 
