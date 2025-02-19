@@ -59,6 +59,6 @@ void identify(Base& p) {
 int main(void) {
     Base* base = generate();
     identify(base);
-    identify(base);
+    identify(*base);
     delete base;
 }
