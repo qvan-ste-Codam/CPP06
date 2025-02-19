@@ -6,7 +6,7 @@ NO_COLOUR = \033[0m
 CPPFILES = main.cpp ScalarConverter.cpp
 OFILES = $(CPPFILES:.cpp=.o)
 
-CXXFLAGS = -Wall -Werror -Wextra -std=c++20
+CXXFLAGS = -Wall -Werror -Wextra -std=c++20 -g
 
 NAME = main
 
